@@ -1,4 +1,4 @@
-fetch('https://api.github.com/users/mirandamon').then((data) => {return data.json()})
+fetch('https://api.github.com/users/mirandamon').then((data) => {return data.json()}).then()
 
 // function onFetch (data) {
   
