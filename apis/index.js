@@ -1,1 +1,11 @@
-fetch('https://api.github.com/users/mirandamon')
+fetch('https://api.github.com/users/mirandamon').then()
+
+console.log('hi')
+
+
+// synchronous vs asynchronous 
+
+// one at a time in order = synchronous
+// hands would be tied for any long operation/unknown duration
+
+// asynchronous code is a way to do multiple things at once and react to them whenever they finish
