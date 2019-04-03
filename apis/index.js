@@ -1,8 +1,8 @@
 let myData = null
 
 fetch('https://api.github.com/users/mirandamon')
-.then((data) => {return data.json()})
-.then((json) => {myData = json})
+.then( (data) => {return data.json()} )
+.then( (json) => {myData = json} )
 
 // function onFetch (data) {
   
