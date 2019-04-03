@@ -1,12 +1,14 @@
+let myData = null
+
 fetch('https://api.github.com/users/mirandamon')
 .then((data) => {return data.json()})
-.then((json) => {console.log(json)})
+.then((json) => {myData = json})
 
 // function onFetch (data) {
   
 // }
 
-console.log('hi')
+console.log(myData)
 
 
 // synchronous vs asynchronous 
