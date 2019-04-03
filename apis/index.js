@@ -9,7 +9,7 @@ fetch('https://api.github.com/users/mirandamon')
 // }
 
 console.log(myData)
-
+// Javascript Object Notation
 
 // synchronous vs asynchronous 
 
