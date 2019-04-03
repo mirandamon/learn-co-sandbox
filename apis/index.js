@@ -1,1 +1,1 @@
-fetch('')
+fetch('https://api.github.com/users/mirandamon')
