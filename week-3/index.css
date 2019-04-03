@@ -1,0 +1,91 @@
+.section-class {
+  background: grey;
+  height: 400px;
+  margin-bottom: 8px;
+}
+
+.class-1 {
+  /* relative position, absolute position, fixed position */
+  /* take where this thing normally would be and make a change relative to where
+  it normally would be */
+  /* top/bottom and left/right - only one of each pair can be used at one time */
+  position: relative;
+  top: 0px; 
+  right: 50px;
+  background: blue;
+}
+
+.class-2 {
+  /* absolute takes the starting position as the edge of your screen */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: purple;
+}
+
+
+
+
+
+
+
+
+/*.class-1 {*/
+/*  background: cadetblue;*/
+/*  text-align: center;*/
+/*  width: 400px;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+/*.class-2 {*/
+/*  margin-bottom: 16px;*/
+/*}*/
+
+
+/* block level elemenents: div, p, h1 - h6 */
+
+
+/* Media Queries */
+/*@media (max-width: 768px) {*/
+/*  .class-1 {*/
+/*    background: mistyrose;*/
+/*  }*/
+  
+/*  .class-2 {*/
+/*    background: red;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 500px) {*/
+/*  .class-1 {*/
+/*    background: green;*/
+/*  }*/
+  
+/*  .class-2 {*/
+/*    background: purple;*/
+/*  }*/
+/*}*/
+
+
+/* Mobile First */
+/*.class-1 {*/
+/*  background: red;*/
+/*  width: 50%;*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*  .class-1 {*/
+/*    background: blue;*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*  .class-1 {*/
+/*    background: green;*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 1400px) {*/
+  
+/*}*/
